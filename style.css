@@ -1,0 +1,191 @@
+.home {
+   background-color: #cce6fc;
+}
+.home body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+.home h1 {
+    text-align: center;
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+}
+.home p {
+    text-align: center;
+    color: #3b5c20;
+    font-size: 18px;
+}
+.home nav {
+    background-color: #0066cc;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.home nav a {
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.home nav a:hover {
+    background-color: #034a91
+}
+.home .image {
+    text-align: center;
+}
+/*----------------------------------------------------*/
+.about {
+    background-color: #cbf2cc;
+}
+
+.about h1 {
+    text-align: center;
+    background-color: #3b5c20;
+    color: #ffffff;
+}
+.about nav {
+    background-color: #3b5c20;
+    padding: 10px;
+    text-align: center;
+}
+.about nav a {
+    color: red;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.about nav a:hover {
+    background-color: #284015;
+}
+.about img {
+    width: 300px;
+    height: 200px;
+}
+.intro {
+    color: #1007b5;
+}
+.hobbies {
+    color: #6b1402;
+}
+/*-------------------------------------------------------*/
+.contact {
+    background-color: #fca7a7;
+}
+
+.contact .contact-form {
+    text-align: center;
+}
+
+.contact .name {
+     color: #4A90E2;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: 2px solid #ddd;
+     border-radius: 4px;
+}
+.contact .email {
+     color: #8E8E8E;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: 2px solid #ddd;
+     border-radius: 4px;
+}
+.contact .subject {
+     color: #FF6F61;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: 2px solid #ddd;
+     border-radius: 4px;
+}
+.contact .message {
+     color: #A3D9A5;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: 2px solid #ddd;
+     border-radius: 4px;
+}
+.contact .name-t {
+     color: #4A90E2;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 4px;
+}
+.contact .email-t {
+     color: #8E8E8E;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 4px;
+}
+.contact .subject-t {
+     color: #FF6F61;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 4px;
+}
+.contact .message-t {
+     color: #A3D9A5;
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 4px;
+}
+.contact .submit-btn {
+     background-color: #cc0d04;
+     color: white;
+     border: none;
+     padding: 10px 20px;
+     width: 100%;
+}
+
+.contact .submit-btn:hover {
+     background-color: #990902;
+}
+
+.contact nav {
+      background-color: #cc0d04;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+}
+.contact nav a {
+      color: blue;
+      padding: 10px 20px;
+      margin: 0 10px;
+      text-decoration: none;
+}
+
+.contact nav a:hover {
+      background-color: #990902;
+}
+/*------------------------------------------------------*/
+
+.resume {
+     background-color: #fff8c2;
+}
+.resume nav {
+      background-color: #ffed78;
+      padding: 10px;
+      text-align: center;
+}
+.resume nav a {
+      color: black;
+      padding: 10px 20px;
+      margin: 0 10px;
+      text-decoration: none;
+}
+.resume nav a:hover {
+      background-color: #ccbd5c;
+}
