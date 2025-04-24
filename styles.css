@@ -1,0 +1,185 @@
+/* Global Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d9534f;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #191970;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #191970;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #ddd;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+
+body.home-page {
+
+}
+
+.home-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.home-page p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fffafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+body.charity-list-page {
+}
+
+.charity-list-page h1 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+}
+
+.charity-list-page ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fffafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.charity-list-page li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.charity-list-page li:last-child {
+    border-bottom: none;
+}
+
+.charity-list-page li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.charity-list-page li a:hover {
+    text-decoration: underline;
+}
+
+
+body.charity-profile-page {
+}
+
+.charity-profile-page h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.charity-profile-page h2 {
+    font-size: 1.6em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #07695e;
+}
+
+.charity-profile-page p {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fffafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.charity-profile-page button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.charity-profile-page button:hover {
+    background-color: #000
+}
+
+#email-input {
+    width: 200px;
+    max-width: 100%;
+    padding: 0.5em;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-self: center;
+  }
+  .weather-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+  }
+  
+  #city-input,
+  #get-weather-btn {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
